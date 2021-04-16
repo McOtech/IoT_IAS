@@ -1,8 +1,7 @@
 /*
- * 1 Button Shield - Simple Push
- * Press the pushbutton to switch on the LED
- *
- * 1 Button Shield pushbutton connects pin D3 to GND
+ * PIR Shield with a JST COnnector
+ * 
+ * A movement with some IR changes at the PIR sensor location cause the sensor to connect pin D3 to GND
  */
 
 const int PIR = D3;
