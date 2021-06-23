@@ -29,7 +29,7 @@
 #define MODEBUTTON D3                                        // Button pin on the esp for selecting modes. D3 for the Wemos!
 
 
- // GPIO17 on ESP32 refelects the D3 pin of Wemos
+ // Note: GPIO17  "17"   on ESP32 refelects the "D3"  pin of Wemos D1 mini (ESP8266)
 
 #include <IOTAppStory.h>                                    // IotAppStory.com library
 IOTAppStory IAS(COMPDATE, MODEBUTTON);                      // Initialize IotAppStory
